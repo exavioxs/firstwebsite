@@ -95,13 +95,17 @@ li a:hover{
 	border-color: #ee4b08;
 	border-width: 4px;
 }
+.btn-primary:focus{
+	background-color: #ee4b08;
+	border-color: #ee4b08;
+}
 hr{
 	border-color: #B22222;
 	border-width:3px;
 	max-width: 70px;
 }
 .buffer{
-	height: 5rem;
+	height: 1px;
 }
 .btn-outline-success{
 	background-color: white;
@@ -112,14 +116,23 @@ hr{
 	background-color: #B22222;
 	border-color: #B22222;
 }
-form .btn{
-	color: black;
-}
-.navbar-brand:hover{
-	background-color: #B22222;
-}
+
+
 .text-center h1{
 	color: white;
 }
-
+.nav-link:hover{
+	color: white;
+}
+.nav-pils .nav-link {
+	background-color:#B22222;
+	border-color: #B22222; 
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link:hover{
+    color: white;
+    background-color: #B22222;
+}
+::selection {
+  background: #ee4b08;
+}
 
